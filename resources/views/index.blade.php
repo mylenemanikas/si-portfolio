@@ -383,7 +383,7 @@
                 <article class="col-xs-6 article wow animated fadeInRight">
 
                         <div class="wrap c borderedHover">
-                            <img src="img/big.png" width="600" height="350" class="img-responsive ">
+                            <img src="img/big.png"  class="img-responsive troiswa">
                         </div>
 
                     <div class="row">

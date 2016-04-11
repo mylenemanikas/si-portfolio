@@ -4,8 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use Illuminate\Http\Request;
-use App\Siteinternetmm;
+
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Redirect;
 
 
@@ -17,7 +18,7 @@ class IndexController extends Controller
 
         return view('index');
     }
-    public function formulaire(Request $request){
+    public function formulaire(Requests\UserRequests $request){
         $nom = $request->nom; // title est le name de mon champs
         //                       $request->title<=>$_POST['title']
         $prenom = $request->prenom; //$_POST['description']
@@ -25,25 +26,24 @@ class IndexController extends Controller
         $message=$request->message;
         $email=$request->email;
 
-        dump($nom);
+        /*dump($nom);
         dump($prenom);
         dump($message);
         dump($email);
-        exit();
+        exit();*/
+        // envoi de mail
+        Mail::send('email/contact',[
+            'nom'=>$nom,
+            'prenom'=>$prenom,
+            'email'=>$email,
+            'mess'=>$message,
+        ], function ($message){
+            $message->subject('Un nouveau contact!');
+            $message->from("marie.garcia@gmail.com","Garcia");
+            $message->to('mylene.manikas@gmail.com');
+        });
+        return Redirect::route('index');
 
-        $siteinternetmm = new Siteinternetmm();
-
-
-
-        $siteinternetmm->nom = $nom;
-        $siteinternetmm->prenom = $prenom;
-        $siteinternetmm->email=$email;
-        $siteinternetmm->message=$message;
-        $siteinternetmm->save();
-        //save() permet de sauvegarder mon objet en base de données
-// 3eme étape: redirection...
-        //redirection a partir de ma route
-        return view('index');
     }
 
 

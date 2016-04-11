@@ -47,11 +47,11 @@
             <div class="item item-1 active">
                 <div class="container">
                     <div class="content">
-                        <div class="logo wow bounceInDown" data-wow-duration="1s" data-wow-delay=".5s"><div class="wrap"><div>M</div></div></div>
+                        <div class="logo bounceInDown" data-wow-duration="1s" data-wow-delay=".5s"><div class="wrap"><div>M</div></div></div>
                         <div class="text font-white">
                             <div class="row">
                                 <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
-                                    <h1 class="wow bounceInUp">Mylène Manikas</h1>
+                                    <h1 class=" bounceInUp">Mylène Manikas</h1>
                                 </div>
                             </div>
                         </div>
@@ -131,12 +131,7 @@
         <div class="navbar navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+
                     <a class="navbar-brand j-scroll" href="#home">M</a>
                 </div>
                 <nav class="navbar-collapse collapse">
@@ -170,7 +165,7 @@
 
             <!-- Content -->
             <div class="row">
-                <div class="col-xs-6 col-sm-6 i wow fadeInLeft animated" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                <div class="col-xs-6 col-sm-6 i fadeInLeft animated" data-wow-duration="0.5s" data-wow-delay="0.1s">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-0 col-lg-4 icon">
                             <div class="c">
@@ -183,11 +178,11 @@
                             <h3>REALISATION DE SITE WEB</h3>
                             <p>Intégrateur / Développeur Web depuis 2015</p>
                             <p>Réalisation de site internet a l'aide d'outil d'integration et de développement: HTML5, CSS3, Javascript, Laravel, Bootstrap,Materialize, PHP, mySQL, JQUERY, Wordpress...
-                                Importance accordé au responsive design.  <a href="#" data-toggle="modal" data-target="#modalText">more...</a></p>
+                                Importance accordé au responsive design. <!-- <a href="#" data-toggle="modal" data-target="#modalText">more...</a>--></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 i wow fadeInRight animated" data-wow-duration="0.5s" data-wow-delay="0.2s">
+                <div class="col-xs-6 col-sm-6 i fadeInRight animated" data-wow-duration="0.5s" data-wow-delay="0.2s">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-0 col-lg-4 icon">
                             <div class="c">
@@ -201,13 +196,13 @@
                             <p>Réalisatrice depuis 2011
                             </p>
                             <p>Réalisation en live pour des sociétés évènementiels et de production. Utilisation de l'anycast et anycast touch de Sony, du logiciel blackmagic, du mélangeur panasonic av-hs400.
-                                Utilisation de caméras robotisées Sony BRC-Z330 et d'un panneau de commande à distance pour caméras BRC : Sony RM-IP10.<a href="#" data-toggle="modal" data-target="#modalText">more...</a></p>
+                                Utilisation de caméras robotisées Sony BRC-Z330 et d'un panneau de commande à distance pour caméras BRC : Sony RM-IP10.<!--<a href="#" data-toggle="modal" data-target="#modalText">more...</a>--></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-6 col-sm-6 i wow fadeInLeft animated" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                <div class="col-xs-6 col-sm-6 i fadeInLeft animated" data-wow-duration="0.5s" data-wow-delay="0.3s">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-0 col-lg-4 icon">
                             <div class="c">
@@ -222,11 +217,11 @@
                             </p>
                             <p>Montage sur Final cut pro 7, Final cut pro x et Première pro et en formation sur le logiciel AVID.
                                 Réalisation de nombreux reportages journalistique, films d'entreprise, clips, courts métrages, publicité, documentaire, montage en multicaméra.
-                                Utilisation des logiciels After effect et photoshop pour l'habillage des vidéos. <a href="#" data-toggle="modal" data-target="#modalText">more...</a></p>
+                                Utilisation des logiciels After effect et photoshop pour l'habillage des vidéos. <!--<a href="#" data-toggle="modal" data-target="#modalText">more...</a>--></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 i wow fadeInRight animated" data-wow-duration="0.5s" data-wow-delay="0.4s">
+                <div class="col-xs-6 col-sm-6 i fadeInRight animated" data-wow-duration="0.5s" data-wow-delay="0.4s">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-0 col-lg-4 icon">
                             <div class="c">
@@ -273,20 +268,20 @@
                 <div class="col-xs-12 col-sm-6">
                     <!--<img src="img/phone.png" alt="" width="514" height="336" class="img-responsive wow bounceInLeft">-->
                     <ul class="skills">
-                        <li><div class="wow animated fadeInLeft" data-wow-duration="1s" data-delay="0.2s" style="width: 80%">FINAL CUT PRO 7 / 90%</div></li>
-                        <li><div class="wow animated fadeInLeft" data-wow-duration="1s" data-delay="0.2s" style="width: 80%">HTML5 / 80%</div></li>
-                        <li><div class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s" style="width: 80%">CSS3 / 80%</div></li>
-                        <li><div class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.6s" style="width: 80%">BOOTSTRAP / 80%</div></li>
-                        <li><div class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.8s" style="width: 65%">PHP / 60%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-delay="0s" style="width: 80%">FINAL CUT PRO 7 / 90%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-delay="0s" style="width: 80%">HTML5 / 80%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0s" style="width: 80%">CSS3 / 80%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0s" style="width: 80%">BOOTSTRAP / 80%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0s" style="width: 65%">PHP / 60%</div></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-sm-6">
                     <ul class="skills">
-                        <li><div class="wow animated fadeInLeft" data-wow-duration="1s" data-delay="0.2s" style="width: 50%">JAVASCRIPT / 50%</div></li>
-                        <li><div class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s" style="width: 60%">AFTER EFFECT / 60%</div></li>
-                        <li><div class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.6s" style="width: 55%">PHOTOSHOP / 55%</div></li>
-                        <li><div class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.8s" style="width: 60%">LARAVEL / 60%</div></li>
-                        <li><div class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.8s" style="width: 60%">MySQL / 60%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-delay="0.2s" style="width: 50%">JAVASCRIPT / 50%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0.4s" style="width: 60%">AFTER EFFECT / 60%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0.6s" style="width: 55%">PHOTOSHOP / 55%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0.8s" style="width: 60%">LARAVEL / 60%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0.8s" style="width: 60%">MySQL / 60%</div></li>
                     </ul>
                 </div>
             </div>
@@ -326,7 +321,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
 							<span class="icon">
-								<i class="fa fa-play"></i>
+								<i class="fa fa-play iconvideo"></i>
 							</span>
                         <h2>Bande Démo</h2>
                     </div>
@@ -483,16 +478,16 @@
             <div class="col-xs-12 info">
                <!-- <span class="wow fadeInRight" data-wow-delay="0.2s"><i class="fa fa-location-arrow icon"></i> 9532 Lexington Ave, New York, NY 10021</span>-->
                 <span class="wow fadeInRight" data-wow-delay="0.4s"><i class="fa fa-envelope-o icon"></i>mylene.manikas@gmail.com</span>
-                <span class="wow fadeInRight" data-wow-delay="0.6s"><i class="fa fa-phone icon"></i>+33649060588</span>
+                <span class="wow fadeInRight" data-wow-delay="0.6s"><i class="fa fa-phone icon"></i>+33649050688</span>
             </div>
             <div class="col-xs-12 col-sm-8 col-sm-offset-2">
                 <form role="form" method="post" data-parsley-validate action="{{route('formulaire')}}">
                     {{csrf_field()}}
-                    <input  name="nom" type="text" class="form-control wow fadeInLeft" data-wow-delay="0.2s" placeholder="Nom" required data-parsley-error-message="Entrer nom">
-                    <input name="prenom" type="text" class="form-control wow fadeInLeft" data-wow-delay="0.2s" placeholder="Prenom" required data-parsley-error-message="Entrer prenom">
-                    <input name="email" type="email" class="form-control wow fadeInLeft" data-wow-delay="0.4s" placeholder="Email" required data-parsley-error-message="Entrer email">
-                    <textarea name="message"class="form-control wow fadeInLeft" data-wow-delay="0.6s" rows="6" placeholder="Message" required data-parsley-error-message="Entrer message"></textarea>
-                    <button type="submit" class="btn btn-lg wow fadeInUp" data-wow-delay="1s">Envoyer</button>
+                    <input  name="nom"  id="nom" type="text" class="form-control "  placeholder="Nom" required data-parsley-error-message="Entrer nom">
+                    <input name="prenom" id="prenom" type="text" class="form-control "  placeholder="Prenom" required data-parsley-error-message="Entrer prenom">
+                    <input name="email" id="email" type="email" class="form-control "  placeholder="Email" required data-parsley-error-message="Entrer email">
+                    <textarea name="message" id="message" class="form-control  "  rows="6" placeholder="Message" required data-parsley-error-message="Entrer message"></textarea>
+                    <button type="submit" class="btn btn-lg" data-wow-delay="0.2s">Envoyer</button>
                 </form>
             </div>
         </div>

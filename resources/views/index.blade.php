@@ -65,7 +65,7 @@
                         <div class="text font-white">
                             <div class="row">
                                 <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
-                                    <h1 class="wow bounceInRight">Integrateur Web</h1>
+                                    <h1 class="wow bounceInRight">Intégrateur Web</h1>
                                 </div>
                             </div>
                         </div>
@@ -177,8 +177,86 @@
                         <div class="col-xs-12 col-md-7 col-lg-8">
                             <h3>REALISATION DE SITE WEB</h3>
                             <p>Intégrateur / Développeur Web depuis 2015</p>
-                            <p>Réalisation de site internet a l'aide d'outil d'integration et de développement: HTML5, CSS3, Javascript, Laravel, Bootstrap,Materialize, PHP, mySQL, JQUERY, Wordpress...
-                                Importance accordé au responsive design. <!-- <a href="#" data-toggle="modal" data-target="#modalText">more...</a>--></p>
+                            <p>Réalisation de site internet a l'aide d'outil d'integration et de développement: HTML5, CSS3, Javascript, JQuery, Laravel5, Wordpress, Symphony2, Bootstrap, Materialize, PHP, mySQL...
+                                 <!-- <a href="#" data-toggle="modal" data-target="#modalText">more...</a>--></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 i fadeInRight animated" data-wow-duration="0.5s" data-wow-delay="0.2s">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-0 col-lg-4 icon">
+                            <div class="c">
+                                <div class="fill">
+                                    <img src='{{asset("img/maquette1.png")}}' alt="" width="128" height="130">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-7 col-lg-8">
+                            <h3>DEVELOPPEMENT FRONT-END / INTEGRATION</h3>
+                            <p>Intégratrice depuis 2015
+                            </p>
+                            <p> Intégration de site, création webdesign ou à partir de maquette  : HTML5, CSS3, Less, Sass, Javascript, JQuery, Bootstrap, Twig, Wordpress. Importance accordé au responsive design.</p>
+                            <p>Vous retrouverez mes derniers projets sur github en cliquant sur ce lien <a target="_blank" href="https://github.com/mylenemanikas/"> Github Mylene MANIKAS</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 i fadeInLeft animated" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-0 col-lg-4 icon">
+                            <div class="c">
+                                <div class="fill">
+                                    <img src='{{asset("img/Capture.png")}}' width="128" height="130">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-7 col-lg-8">
+                            <h3>DEVELOPPEMENT BACK-END</h3>
+                            <p>Développeuse depuis 2016
+                            </p>
+                            <p>Dévelopement back-end, projet réalisé sous Laravel5 ou symfony2. Utilisation de NodeJS, PHP </p>
+                            <p>Vous retrouverez mes derniers projets sur github en cliquant sur ce lien <a target="_blank" href="https://github.com/mylenemanikas/"> Github Mylene MANIKAS</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 i fadeInRight animated" data-wow-duration="0.5s" data-wow-delay="0.4s">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-0 col-lg-4 icon">
+                            <div class="c">
+                                <div class="fill">
+                                    <img src='{{asset("img/cadreur.jpg")}}' alt="" width="128" height="130">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-7 col-lg-8">
+                            <h3>CADREUSE</h3>
+                            <p>Cadreuse depuis 2010
+                            </p>
+                            <p>Achat: XF100 de Canon,  pieds manfrotto 701 HDV, 2 cartes flash de 32 gigas, EOS 7D - 50 mm, micro main, XLR 5m
+                                Caméra utilisé: C100, C300, 5D markIII, XF105, Z5, Z7, EX1, EX3,...
+                                Son: Micro HF, table de mixage, micro main
+                                Lumière: Madarine, Chimera, Kino Flo, Litepanels, Blonde, Boule chinoise</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 i fadeInLeft animated" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-0 col-lg-4 icon">
+                            <div class="c">
+                                <div class="fill">
+                                    <img src={{asset("img/monteur.png")}} width="128" height="130">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-7 col-lg-8">
+                            <h3>MONTEUSE</h3>
+                            <p>Monteuse depuis 2010</p>
+                            <p>Montage sur Final cut pro 7, Final cut pro x et Première pro et en formation sur le logiciel AVID.
+                                Réalisation de nombreux reportages journalistique, films d'entreprise, clips, courts métrages, publicité, documentaire, montage en multicaméra.
+                                Utilisation des logiciels After effect et photoshop pour l'habillage des vidéos.</p>
                         </div>
                     </div>
                 </div>
@@ -197,47 +275,6 @@
                             </p>
                             <p>Réalisation en live pour des sociétés évènementiels et de production. Utilisation de l'anycast et anycast touch de Sony, du logiciel blackmagic, du mélangeur panasonic av-hs400.
                                 Utilisation de caméras robotisées Sony BRC-Z330 et d'un panneau de commande à distance pour caméras BRC : Sony RM-IP10.<!--<a href="#" data-toggle="modal" data-target="#modalText">more...</a>--></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-6 col-sm-6 i fadeInLeft animated" data-wow-duration="0.5s" data-wow-delay="0.3s">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-0 col-lg-4 icon">
-                            <div class="c">
-                                <div class="fill">
-                                    <img src='{{asset("img/monteur.png")}}' width="128" height="130">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-md-7 col-lg-8">
-                            <h3>MONTEUR</h3>
-                            <p>Monteuse depuis 2010
-                            </p>
-                            <p>Montage sur Final cut pro 7, Final cut pro x et Première pro et en formation sur le logiciel AVID.
-                                Réalisation de nombreux reportages journalistique, films d'entreprise, clips, courts métrages, publicité, documentaire, montage en multicaméra.
-                                Utilisation des logiciels After effect et photoshop pour l'habillage des vidéos. <!--<a href="#" data-toggle="modal" data-target="#modalText">more...</a>--></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 i fadeInRight animated" data-wow-duration="0.5s" data-wow-delay="0.4s">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-0 col-lg-4 icon">
-                            <div class="c">
-                                <div class="fill">
-                                    <img src='{{asset("img/cadreur.jpg")}}' alt="" width="128" height="130">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-md-7 col-lg-8">
-                            <h3>CADREUR</h3>
-                            <p>Cadreuse depuis 2010
-                            </p>
-                            <p>Achat: XF100 de Canon,  pieds manfrotto 701 HDV, 2 cartes flash de 32 gigas, EOS 7D - 50 mm, micro main, XLR 5m
-                                Caméra utilisé: C100, C300, 5D markIII, XF105, Z5, Z7, EX1, EX3,...
-                                Son: Micro HF, table de mixage, micro main
-                                Lumière: Madarine, Chimera, Kino Flo, Litepanels, Blonde, Boule chinoise<a href="#" data-toggle="modal" data-target="#modalText">more...</a></p>
                         </div>
                     </div>
                 </div>
@@ -269,19 +306,23 @@
                     <!--<img src="img/phone.png" alt="" width="514" height="336" class="img-responsive wow bounceInLeft">-->
                     <ul class="skills">
                         <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-delay="0s" style="width: 80%">FINAL CUT PRO 7 / 90%</div></li>
-                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-delay="0s" style="width: 80%">HTML5 / 80%</div></li>
-                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0s" style="width: 80%">CSS3 / 80%</div></li>
-                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0s" style="width: 80%">BOOTSTRAP / 80%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-delay="0s" style="width: 80%">HTML5 / 90%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0s" style="width: 80%">CSS3 / 90%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0s" style="width: 80%">BOOTSTRAP / 90%</div></li>
                         <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0s" style="width: 65%">PHP / 60%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0s" style="width: 65%">LESS / 60%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0s" style="width: 65%">SASS / 40%</div></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-sm-6">
                     <ul class="skills">
                         <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-delay="0.2s" style="width: 50%">JAVASCRIPT / 50%</div></li>
-                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0.4s" style="width: 60%">AFTER EFFECT / 60%</div></li>
-                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0.6s" style="width: 55%">PHOTOSHOP / 55%</div></li>
-                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0.8s" style="width: 60%">LARAVEL / 60%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0.4s" style="width: 60%">SYMFONY 2 / 60%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0.6s" style="width: 55%">PHOTOSHOP / 60%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0.8s" style="width: 60%">LARAVEL 5 / 60%</div></li>
                         <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0.8s" style="width: 60%">MySQL / 60%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0s" style="width: 65%">AFTER EFFECT / 60%</div></li>
+                        <li><div class="wow animated fadeInLeft" data-wow-duration="0.2s" data-wow-delay="0s" style="width: 65%">JQUERY / 50%</div></li>
                     </ul>
                 </div>
             </div>
@@ -303,11 +344,12 @@
                         <p>Récemment en poste, en tant que cadreuse / monteuse, au sein d’une société de production audiovisuelle, j’ai eu la responsabilité de nombreux projets auprès de clients tels qu’AXA, EDF, CASTORAMA, ARC, HSBC, L'OREAL, RENAULT, LE MONDE, LES ECHOS, IBM, CIC, SFR, ORANGE ...
 
                             Je souhaite aujourd'hui faire un virage dans ma carrière. C'est pour cela que que j'ai décidé de me former au métier d'intégrateur / développeur web. Mes différentes formations m'ont permis d'acquérir des compétences qui me permettent aujourd'hui de créer des sites internet de A à Z. </p>
+                        <p>Vous retrouverez mes derniers projets sur github en cliquant sur ce lien <a target="_blank" href="https://github.com/mylenemanikas/"> Github Mylene MANIKAS</a></p>
 
 
                     <p><strong>Si vous souhaitez consulter mon CV au format pdf:</strong></p>
 
-                <a target="_blank" class="btn btn-rounded btn-info btn-block" href='{{asset("assets/download/cvmylenemanikas.pdf")}}'>veuillez cliquer sur ce lien</a>
+                <a target="_blank" class="btn btn-rounded btn-info btn-block" href='{{asset("assets/download/cv2017webdeveloppeur.pdf")}}'>veuillez cliquer sur ce lien</a>
                     </div>
                     </div>
             </header>
@@ -353,22 +395,22 @@
 
                         <div class="wrap c borderedHover">
 
-                            <img src="img/maquette.png" width="600" height="350" class="img-responsive">
+                            <img src="img/logo-ipssi.png"  class="img-responsive troiswa">
                         </div>
 
                     <div class="row">
                         <div class="col-lg-2 visible-lg asideArticleInfo">
                             <div class="date">
                                 <div class="day"></div>
-                                <div class="month">2016</div>
+                                <div class="month">Avril 2016 À Mars 2018</div>
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <h3><!--<a href="blog-detail.html" title="#">-->Création de site internet: intégration/développement<!--</a>--></h3>
+                            <h3><!--<a href="blog-detail.html" title="#">-->Formation en Alternance: école IPSSI - Titre niveau II - Développement web & mobile (BAC+4)<!--</a>--></h3>
 
-                            <p>Intégration de maquette en HTML 5, CSS3, BOOTSTRAP. Création d'un site réalisé sous le framework LARAVEL: Allomovies et d'un site portfolio.
+                            <p>3 semaines par mois en entreprise et 1 semaine à l'école.
+                                PHP, Android/Java, IOS, Gestion de projet, Intégration, Javascript, Sys et Réseaux, Startup incubateur, Expertise PHP, Base de données, Admin Linux, Méthodologie, CISCO, Sécurité, Clous computing, Anglais, Communication, Législation.
                             </p>
-                            <p>Vous retrouverez mes derniers projets sur github en cliquant sur ce lien <a target="_blank" href="https://github.com/mylenemanikas/"> Github Mylene MANIKAS</a></p>
                         </div>
                     </div>
 
@@ -394,6 +436,9 @@
                             <p> 400 heures de cours répartis sur 57 jours
                                 HTML5, CSS3, JavaScript, PHP, MySQL, JQUERY, SASS, LARAVEL,BOOTSTRAP, GITHUB
                                 10 % de théorie et 90 % de pratique </p>
+                            <p>Intégration de maquette en HTML 5, CSS3, BOOTSTRAP. Création d'un site réalisé sous le framework LARAVEL: Allomovies et d'un site portfolio.
+                            </p>
+
                         </div>
                     </div>
                 </article>
@@ -476,13 +521,13 @@
         <!-- Content -->
         <div class="row">
             <div class="col-xs-12 info">
-               <!-- <span class="wow fadeInRight" data-wow-delay="0.2s"><i class="fa fa-location-arrow icon"></i> 9532 Lexington Ave, New York, NY 10021</span>-->
-                <span class="wow fadeInRight" data-wow-delay="0.4s"><i class="fa fa-envelope-o icon"></i>mylene.manikas@gmail.com</span>
+                <span class="wow fadeInRight" data-wow-delay="0.4s"><i class="fa fa-envelope-o icon"></i>mylene.manika(at)gmail.com</span>
                 <span class="wow fadeInRight" data-wow-delay="0.6s"><i class="fa fa-phone icon"></i>+33649050688</span>
             </div>
             <div class="col-xs-12 col-sm-8 col-sm-offset-2">
                 <form role="form" method="post" data-parsley-validate action="{{route('formulaire')}}">
                     {{csrf_field()}}
+
                     <input  name="nom"  id="nom" type="text" class="form-control "  placeholder="Nom" required data-parsley-error-message="Entrer nom">
                     <input name="prenom" id="prenom" type="text" class="form-control "  placeholder="Prenom" required data-parsley-error-message="Entrer prenom">
                     <input name="email" id="email" type="email" class="form-control "  placeholder="Email" required data-parsley-error-message="Entrer email">
@@ -502,8 +547,8 @@
     <div class="social">
 
         <a target="_blank" href="https://twitter.com/mylenemanikas" title="#" class="icon"><i class="fa fa-twitter"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/in/mylene-manikas-2132852b" title="#" class="icon"><i class="fa fa-linkedin"></i></a>
-        <a target="_blank" href="#" title="#" class="icon"><i class="fa fa-viadeo"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/mylene-manikas-2132852b/" title="#" class="icon"><i class="fa fa-linkedin"></i></a>
+        <a target="_blank" href="http://www.viadeo.com/p/002ujn7yocwvb61/" title="#" class="icon"><i class="fa fa-viadeo"></i></a>
     </div>
 
     <div>© 2016 Mylène MANIKAS</div>
@@ -512,7 +557,7 @@
 </div>
 
 <!-- Modals -->
-<div class="modal fade" id="modalText" tabindex="-1" role="dialog" aria-labelledby="modalText" aria-hidden="true">
+<!--<div class="modal fade" id="modalText" tabindex="-1" role="dialog" aria-labelledby="modalText" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -529,7 +574,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
         <!--<div class="options hidden-xs">
             <div class="more closed">
                 <i class="fa fa-cog"></i>

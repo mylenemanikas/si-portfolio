@@ -29,7 +29,8 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+   // 'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -42,6 +43,7 @@ return [
     |
     */
 
+    //'port' => env('MAIL_PORT', 587),
     'port' => env('MAIL_PORT', 587),
 
     /*
@@ -55,7 +57,7 @@ return [
     |
     */
 
-    'from' => ['address' => null, 'name' => null],
+    'from' => ['address' => 'mylene.manikas@gmail.com', 'name' => 'mylene'],
 
     /*
     |--------------------------------------------------------------------------
@@ -68,7 +70,7 @@ return [
     |
     */
 
-    'encryption' => env('MAIL_ENCRYPTION', 'tls'),
+    'encryption' => env('MAIL_ENCRYPTION', 'ssl'),
 
     /*
     |--------------------------------------------------------------------------
